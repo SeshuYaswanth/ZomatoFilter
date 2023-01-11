@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    height: 973px;
+}
+.navContainer {
+    height: 80px;
+    background-color: #CE0505;
+}
+.circle {
+    height: 52px;
+    width: 52px;
+    border-radius: 50%;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #CE0505;
+    position: relative;
+    top: 16px;
+    left: 112px;
+}
+.login {
+    float: right;
+    margin-right: 112px;
+    margin-top: -35px;
+    color: #ffffff;
+}
+.label {
+    margin-right: 30px;
+}
+.button {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600px;
+    height: 46px;
+    width: 181px;
+    color: #ffffff;
+    background-color: #CE0505;
+    border: 1px solid #ffffff;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+
+
+/* Body Message */
+.bodyMessage {
+    margin-left: 113px;
+}
+.heading {
+    font-size: 36px;
+    font-weight: bold;
+    color: #192F60;
+    margin-top: 37px;
+}
+
+
+/* Filter Area */
+.filter {
+    margin-top: 27px;
+    margin-left: 113px;
+    height: 682px;
+    width: 260px;
+    color: #192F60;
+    box-shadow: #00000029 0px 3px 6px;
+    display: inline-block;
+}
+.filterLogo1 {
+    font-weight: bolder;
+    position: relative;
+    top: 17px;
+    left: 26px;
+}
+.filterLocation {
+    font-size: 14px;
+    position: relative;
+    top: 28px;
+    left: 26px;
+}
+.dropDown {
+    color: #8C96AB;
+    border: 2px solid #8C96AB;
+    border-radius: 3px;
+    height: 35px;
+    width: 208px;
+    margin-top: 10px;
+    position: relative;
+    top: 31px;
+    left: 26px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+.filterPara1 {
+    font-size: 14px;
+    position: relative;
+    top: 45px;
+    left: 26px;
+}
+.filterPara2 {
+    font-size: 14px;
+    position: relative;
+    top: 50px;
+    left: 26px;
+}
+.inputs1, .inputs2, .inputs3 {
+    margin-top: 10px;
+}
+.input {
+    height: 18px;
+    width: 18px;
+    position: relative;
+    top: 40px;
+    left: 26px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.filterLabel1 {
+    color: #8C96AB;
+    font-size: 14px;
+    position: relative;
+    top: 35px;
+    left: 30px;
+}
+.input2, .input3 {
+    height: 18px;
+    width: 18px;
+}
+.input2{
+    position: relative;
+    top: 50px;
+    left: 26px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.filterLabel2 {
+    color: #8C96AB;
+    font-size: 14px;
+    position: relative;
+    top: 45px;
+    left: 26px;
+
+}
+.filterLogo2 {
+    font-weight: bolder;
+    position: relative;
+    top: 60px;
+    left: 26px;
+}
+.input3{
+    font-size: 14px;
+    position: relative;
+    top: 50px;
+    left: 26px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.filterLabel3 {
+    color: #8C96AB;
+    font-size: 14px;
+    position: relative;
+    top: 45px;
+    left: 26px;
+    margin-top: 10px;
+}
+
+
+/* Cards */
+.cards {
+    width: 794px;
+    display: inline-block;
+    position: relative;
+    top: -17px;
+    left: 45px;
+}
+.cardContainer {
+    height: 291px;
+    vertical-align: top;
+    box-shadow: #00000029 0px 3px 6px;
+    margin-bottom: 34px;
+}
+.img {
+    margin-top: 25px;
+    margin-left: 35px;
+    height: 120px;
+    width: 120px;
+    border-radius: 20px;
+}
+.cardPara {
+    display: inline-block;
+    margin-left: 41px;
+    vertical-align: top;
+    margin-top: 39px;
+    color: #192F60;
+}
+.para1 {
+    font-weight: bold;
+    font-size: 30px;
+}
+.para2 {
+    font-weight: 500;
+    font-size: 16px;
+}
+.para3 {
+    font-size: 16px;
+    color: #636F88;
+}
+.hori {
+    margin-top: 31px;
+    width: 726.37px;
+    margin-left: 35px;
+}
+.cost {
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 26px;
+    color: #636F88;
+    font-size: 16px;
+}
+.costPara {
+    display: inline-block;
+    margin-left: 36px;
+}
+
+
+.buttonsContainer {
+    position: absolute;
+    top: 849px;
+    left: 650px;
+}
+.navigation {
+    border: 1px solid #8C96AB;
+    border-radius: 7px;
+    background: #ffffff;
+    color: #8C96AB;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    height: 35px;
+    width: 35px;
+    cursor: pointer;
+}
+.navigation:nth-child(2) {
+    background-color: #8C96AB;
+    color: #ffffff;
+}
+
+
+
+
+
+
+/* Media Queries */
+@media (min-width: 375px) and (max-width: 800px) {
+    body {
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+        height: 850px;
+    }
+    .navContainer {
+        height: 60px;
+        width: 100%;
+    }
+    .circle {
+        height: 40px;
+        width: 40px;
+        position: relative;
+        top: 10px;
+        left: 20px;
+    }
+    .login {
+        font-size: 13px;
+        position: relative;
+        top: 10px;
+        left: 90px;
+    }
+    .button {
+        height: 32px;
+        width: 146px;
+    }
+    .bodyMessage {
+        margin-left: 24px;
+    }
+    .heading {
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .filter {
+        margin-top: 12px;
+        margin-left: 20px;
+        height: 53px;
+        width: 90%;
+    }
+    .filterLocation, .dropDown, .filterPara1, .filterPara2, .input, .inputs1, .input2, .input3, .inputs2, .inputs3, .filterLabel1, .filterLabel2, .filterLabel3, .filterLogo2 {
+        display: none;
+    }
+    .cards {
+        width: 100%;
+        height: 224px;
+        position: relative;
+        top: 18px;
+        left: 0;
+    }
+    .cardContainer {
+        height: 224px;
+    }
+    .img {
+        height: 70px;
+        width: 70px;
+        margin-left: 25px;
+        margin-top: 31px;
+        display: inline-block;
+    }
+    .cardPara {
+        display: inline-block;
+        margin-top: -80px;
+        margin-left: 110px;
+    }
+    .para1 {
+        font-size: 20px;
+    }
+    .para2 {
+        font-size: 13px;
+        font-weight: 500;
+    }
+    .para3 {
+        font-size: 12px;
+    }
+    .hori {
+        margin-top: 0;
+        width: 373.86px;
+        height: 0;
+    }
+    .cost {
+        display: inline-block;
+        font-size: 13px;
+    }
+    .costPara {
+        font-size: 13px;
+    }
+    .buttonsContainer {
+        position: absolute;
+        top: 750px;
+        left: 64px;
+    }
+    .navigation {
+        margin-left: 10px;
+    }
+}
